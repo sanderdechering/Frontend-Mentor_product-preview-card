@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <title>Frontend Mentor | Product preview card component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+    <main class="w-screen h-screen flex flex-col bg-orange-50">
+        <div class="w-[700px] flex m-auto bg-white rounded-xl h-[510px]">
+            <img class="w-1/2 rounded-l-xl" src="images/image-product-desktop.jpg" alt="test">
+            <div class="w-1/2  px-10 flex flex-col my-auto">
+
+                <h2 class="text-base text-slate-500">P E R F U M E</h2>
+
+                <h1 class="py-6 text-4xl font-medium leading-9">Gabrielle<br/> Essence Eau<br/> De parfum</h1>
+
+                <p class="text-slate-500">A floral, solar and voluptuous interpretation composed by Olivier Polge,
+                Perfumer-Creator for the House of CHANEL.</p>
+
+                <div class="py-8">
+                    <span class="text-4xl text-emerald-700/80 font-medium">$149.99</span>
+                    <span class="text-sm text-slate-500 line-through pl-5 inline-block align-top mt-3">$169.99</span>
+                </div>
+
+
+                <button class="py-3 rounded-lg bg-emerald-700/80 hover:bg-emerald-700 text-slate-100 font-medium flex justify-center">
+                    <svg width="15" height="16" xmlns="http://www.w3.org/2000/svg" class="my-auto">
+                        <path d="M14.383 10.388a2.397 2.397 0 0 0-1.518-2.222l1.494-5.593a.8.8 0 0 0-.144-.695.8.8 0 0 0-.631-.28H2.637L2.373.591A.8.8 0 0 0 1.598 0H0v1.598h.983l1.982 7.4a.8.8 0 0 0 .799.59h8.222a.8.8 0 0 1 0 1.599H1.598a.8.8 0 1 0 0 1.598h.943a2.397 2.397 0 1 0 4.507 0h1.885a2.397 2.397 0 1 0 4.331-.376 2.397 2.397 0 0 0 1.12-2.021ZM11.26 7.99H4.395L3.068 3.196h9.477L11.26 7.991Zm-6.465 6.392a.8.8 0 1 1 0-1.598.8.8 0 0 1 0 1.598Zm6.393 0a.8.8 0 1 1 0-1.598.8.8 0 0 1 0 1.598Z" fill="#FFF"/>
+                    </svg>
+                    <span class="px-3">Add to Cart</span>
+                </button>
+
+
+            </div>
+        </div>
+        <div class="attribution">
+            Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+            Coded by <a href="#">Sander Dechering</a>.
+        </div>
+    </main>
+
+</body>
+</html>
